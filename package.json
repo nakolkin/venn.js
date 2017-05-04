@@ -1,0 +1,41 @@
+{
+  "name": "neustar-venn",
+  "version": "0.0.1",
+  "description": "venn.js =======",
+  "main": "venn.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakolkin/venn.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakolkin/venn.js/issues"
+  },
+  "homepage": "https://github.com/nakolkin/venn.js#readme",
+  "dependencies": {
+    "d3-scale": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
+}
